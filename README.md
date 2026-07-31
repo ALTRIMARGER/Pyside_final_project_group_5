@@ -3,11 +3,10 @@
 ## Group Information
 
 - **Course:** Applied Programming 2026
-- **Team members:** *(fill in your names and student IDs)*
-- **Responsibilities:**
-  - **Team Member 1 — TCP/Backend (Model):** `models/tcp_client_model.py`, `models/signal_processor.py`
-  - **Team Member 2 — Live Visualization & UI (View):** `views/main_view.py`, `views/plot_view.py`
-  - **Team Member 3 — Offline Inspection, ViewModel & Integration:** `views/offline_view.py`, `viewmodels/main_view_model.py`, `main.py`
+- **Team members:**
+  - Moaz (23872896) — TCP/Backend (Model): `model/`, `models/`
+  - Andrej (23882436) — Live Visualization & UI (View): `views/main_view.py`, `views/plot_view.py`
+  - Mihajlo (23876510) — Offline Inspection, ViewModel & Integration: `views/offline_view.py`, `viewmodels/`, `main.py`
 
 ---
 
