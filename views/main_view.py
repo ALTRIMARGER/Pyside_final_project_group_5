@@ -77,6 +77,20 @@ class MainView(QMainWindow):
         self.setWindowTitle("EMG Signal Viewer — TCP Live Visualization")
         self.resize(1400, 800)
 
+        # Apply a clean stylesheet to the main window for better readability
+        self.setStyleSheet("""
+            QMainWindow { background-color: #f5f5f5; }
+            QPushButton {
+                padding: 4px 8px;
+                border-radius: 4px;
+                border: 1px solid #ccc;
+                background-color: #ffffff;
+            }
+            QPushButton:hover { background-color: #e8f0fe; }
+            QPushButton:disabled { color: #aaa; background-color: #f0f0f0; }
+            QLabel { color: #222; }
+        """)
+
         # ---- build UI --------------------------------------------------------
         central = QWidget()
         self.setCentralWidget(central)
